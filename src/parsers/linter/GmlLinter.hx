@@ -919,7 +919,7 @@ class GmlLinter {
 							skip();
 							
 							rc(readExpr(newDepth));
-							checkTypeCast(readExpr_currType, GmlTypeDef.string, "struct key");
+							// checkTypeCast(readExpr_currType, GmlTypeDef.string, "struct key");
 							
 							if (true) { // todo: validate that object is struct-like
 								currType = currType.unwrapParam(0);
